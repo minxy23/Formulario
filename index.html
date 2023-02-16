@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="formulario">
+<label>Nome:</label><br>
+<input type="text" id="nome">
+<br><br>
+<label>Sobrenome:</label><br>
+<input type="text" id="sobrenome">
+<br><br>
+<label>Idade:</label><br>
+<input type="text" id="idade">
+<br><br>
+<label>Qual seu cantor favorito?</label><br>
+<input type="text" id="cantor">
+<br><br>
+<label>Kurt Cobain ou Freddie Mercury?</label><br>
+<input type="text" id="escolhaUm">
+<br><br>
+<label>Neymar ou Mbappé?</label><br>
+<input type="text" id="escolhaDois">
+<br><br>
+<label>Escolha entre Marvel e DC:</label><br>
+<input type="text" id="escolhaTres">
+    </div>
+
+    <br>
+
+    <div class="botao">
+        <button onclick="guardaFormulario()">ENVIAR</button>
+    </div>
+
+    <br><br>
+
+    <div class="print">
+        <div id="nomeImprimir"></div>
+        <br>
+        <div id="sobrenomeImprimir"></div>
+        <br>
+        <div id="idadeImprimir"></div>
+        <br>
+        <div id="cantorImprimir"></div>
+        <br>
+        <div id="escolhaUmImprimir"></div>
+        <br>
+        <div id="escolhaDoisImprimir"></div>
+        <br>
+        <div id="escolhaTresImprimir"></div>
+    </div>
+
+    <!-- escolhas divs -->
+    <div class="print-img">
+    <div id="kurt"><img id="escolhaUmImprimir1" src="" alt="">  </div>
+    <br>
+    <div id="freddie"><img id="escolhaUmImprimir2" src="" alt=""></div>
+    <br>
+    <div id="neymar"><img id="escolhaDoisImprimir3" src="" alt=""></div>
+    <br>
+    <div id="mbappe"><img id="escolhaDoisImprimir4" src="" alt=""></div>
+    <br>
+    <div id="marvel"><img id="escolhaTresImprimir5" src="" alt=""></div>
+    <br>
+    <div id="dc"><img id="escolhaTresImprimir6" src="" alt=""></div>
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>

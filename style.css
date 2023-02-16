@@ -1,0 +1,131 @@
+*
+{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+body
+{
+    background-color: rgba(187, 187, 187, 0.644)
+
+}
+
+@media screen and (max-width: 670px) {
+    input, #formulario{
+      width: 350px;
+        padding: 6px;
+        margin: 5px;
+    }}
+
+@media screen and (max-width: 670px){
+    img{
+        width: 400px;
+        padding: 10px;
+        margin: 0px;
+    }
+}
+
+#formulario
+{
+    padding: 30px;
+
+    margin: 10px;
+
+    font-size: 18px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-content: center;
+
+    flex-direction: column;
+
+}
+
+input
+{
+    border-radius: 5px;
+    border: solid rgb(31, 114, 86) 2px;
+    /* width: 400px; */
+
+    font-size: 17px;
+
+    font-family: 'Times New Roman', Times, serif;
+    
+    padding: 7px;
+
+    text-align: center;
+}
+
+.botao
+{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(187, 187, 187);
+    padding: 8px;
+
+    color: rgb(0, 88, 60);
+
+    border-radius: 10px;
+
+    border: solid rgb(0, 88, 60) 2px;
+}
+
+button:hover {
+    background-color: rgb(0, 88, 60);
+    color:rgb(187, 187, 187);
+}
+
+.print{
+    text-align: center;
+
+    font-size: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    color: black;
+
+    background-color: whitesmoke;
+
+    padding-top: 30px;
+}
+
+#kurt{
+    width: 500px;
+}
+
+#freddie{
+    width: 500px;
+
+}
+
+#neymar{
+    width: 500px;
+}
+
+#mbappe{
+    width: 500px;
+}
+
+#marvel{
+    width: 500px;
+}
+
+#dc{
+    width: 500px;
+}
+
+.print-img{
+    padding-right: 270px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-content: center;
+
+    flex-direction: column;
+}
